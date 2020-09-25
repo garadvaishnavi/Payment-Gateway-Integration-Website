@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.bdy{
+    background-color:rgb(117, 231, 197);
+}
+</style>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="bdy">
+    <div class="container" style="padding-top:100px;">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="panel panel-default" style="width:500px;height:400px;">
+                <div style="background-color: white; color:black" class="panel-heading">
+                    <h3><i class="fa fa-envelope"></i> Contact Us</h3>
+                    <p class="m-0">Please fill the form below to contact</p>
+                </div>
+                <div class="panel-body">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <i class="fa fa-user text-info"></i><label>Name:</label>
+                        <input type="text" class="form-control" id="Name" name="Name" autocomplete="off" tabindex="5" placeholder="Enter your name"required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-envelope text-info"></i><label>Email:</label>
+                        <input type="text" class="form-control" id="email" name="email" autocomplete="off" tabindex="5" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-comment text-info"></i><label>Enter your message:</label>
+                        <input type="textarea" class="form-control" id="msg" name="msg" autocomplete="off" tabindex="5"required>
+                    </div>
+                    <div class="form-group">
+                    <input type="button" name="submit" value="Enquire" class="btn btn-primary btn-lg btn-block">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

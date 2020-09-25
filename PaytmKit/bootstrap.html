@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  .abcd{
+    background-image: url("donation give.jpg") ;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align  : center ; 
+    padding  : 150px;
+    color: white ;
+    font-size:30px;
+    }
+
+    .navbar{
+      border-radius: 0 !important;
+      -moz-border-radius: 0 !important;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+      font-size: 16px;
+    }
+    .container-fluid{
+      width: 100%;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .slogan{
+      font-size: 50px;
+      font-weight: 900;
+    }
+    .headd{
+      padding: 10px;
+      padding-left: 40px;
+      color: white;
+      font-size: 20px;
+      font-style: italic;
+    }
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand mr-auto"><i class="headd">Give today for a better tomorrow.</i></a>
+    
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+
+  </div>
+</nav>
+<div class="jumbotron" style="background-color:rgb(117, 231, 197); text-align:center;">
+  <div class="container">
+    <p style="font-size:20px; font-weight:900">Your Small Help Could Make Someone's Worls Better!</p>
+    <form><a href="http://localhost/payment%20gateway%20integration/PaytmKit/TxnTest.php"><button type="button" class="btn btn-primary btn-lg">Donate</button></a></form>
+  </div>
+</div>
+
+
+<div class="container">
+<h2 class="w3-center"><b>Did You Know?</b></h2>
+
+<div class="w3-content" style="max-width:400px">
+  <div class="mySlides w3-container w3-skyblue">
+    <h1><i>Malnutrition - not even a bowl of rice a day</i></h1>
+    <p>More than 200 million people don’t have sufficient access to food<br><br><br><br> </p>
+  </div>
+	<div class="mySlides w3-container w3-skyblue">
+    <h1><i>Child labour - no time to play and learn</i></h1>
+    <p>in order to secure survival, it is believed that Indian children contribute to the livelihood of their families; they work in the field, in factories, in quarries, in private households and in prostitution.<br><br> <br> </p>
+  </div>
+ <div class="mySlides w3-container w3-skyblue">
+    <h1><i>Flooding- destroy homes, create financial burden</i></h1>
+    <p>long-term effect of flooding is economic hardship. This hardship is caused by the loss of livestock, farm crops, damage to food stores and damaged to industries or stores. </p>
+  </div> 
+  <div class="mySlides w3-container w3-skyblue">
+    <h1><i>Trees Save Water</i></h1>
+    <p>Shade from trees slows water evaporation from thirsty lawns. Most newly planted trees need only fifteen gallons of water a week. As trees transpire, they increase atmospheric moisture.<br><br> <br> <br> <br>  </p>
+  </div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script><br><br><br>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+    <blockquote class="blockquote">
+      <p class="mb-0">Let us all help our government and NGO's to solve the above issues and remove poverty from our country and help people affected with disaster to stay strong and fight with it.....</p>
+    </blockquote>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
